@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.loginimp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainHomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".FullImageActivity" />
+        <activity android:name=".QuesActivity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".QuesActivity2" />
+        <activity
+            android:name=".FullImageActivity2"
+            android:label="@string/title_activity_full_image2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".QuesActivity4" />
+        <activity android:name=".FullImageActivity4" />
+        <activity android:name=".FullImageActivity3" />
+        <activity
+            android:name=".QuesActivity3"
+            android:label="@string/title_activity_ques3"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
